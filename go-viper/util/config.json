@@ -1,0 +1,11 @@
+{
+  "db": {
+    "address": "172.0.0.1",
+    "port": "5432",
+    "password": "postgres",
+    "user": "postgres"
+  },
+  "server": {
+    "port": "8080 "
+  }
+}
