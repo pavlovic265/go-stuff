@@ -1,9 +1,9 @@
 package config
 
 import (
+	"go-bookstore/pkg/models"
 	"log"
 
-	"example.com/m/v2/pkg/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

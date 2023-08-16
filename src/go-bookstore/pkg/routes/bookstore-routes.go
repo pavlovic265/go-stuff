@@ -1,9 +1,9 @@
 package routes
 
 import (
+	"go-bookstore/pkg/controller"
 	"net/http"
 
-	"example.com/m/v2/pkg/controller"
 	"github.com/gorilla/mux"
 )
 

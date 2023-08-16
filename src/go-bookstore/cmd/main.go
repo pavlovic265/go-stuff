@@ -1,13 +1,13 @@
 package main
 
 import (
+	"go-bookstore/pkg/config"
+	"go-bookstore/pkg/controller"
+	"go-bookstore/pkg/models"
+	"go-bookstore/pkg/routes"
 	"log"
 	"net/http"
 
-	"example.com/m/v2/pkg/config"
-	"example.com/m/v2/pkg/controller"
-	"example.com/m/v2/pkg/models"
-	"example.com/m/v2/pkg/routes"
 	"github.com/gorilla/mux"
 )
 

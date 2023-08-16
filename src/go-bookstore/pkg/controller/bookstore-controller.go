@@ -2,11 +2,10 @@ package controller
 
 import (
 	"encoding/json"
+	"go-bookstore/pkg/models"
+	"go-bookstore/pkg/utils"
 	"log"
 	"net/http"
-
-	"example.com/m/v2/pkg/models"
-	"example.com/m/v2/pkg/utils"
 )
 
 type BookController struct {
